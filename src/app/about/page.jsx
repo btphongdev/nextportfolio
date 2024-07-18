@@ -212,110 +212,110 @@ const AboutPage = () => {
               EXPERIENCE
             </motion.h1>
             {/* EXPERIENCE LIST */}
-
-            {/* EXPERIENCE ITEM 1*/}
             <motion.div
-              className='flex justify-between h-48'
               initial={{ x: '-400px' }}
               animate={isExperienceRefInView ? { x: 0 } : {}}
             >
-              {/* LEFT */}
-              <div className='w-1/3 '>
-                {/* JOB TITLE */}
-                <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                  Front-end Developer
+              {/* EXPERIENCE ITEM 1*/}
+              <div className='flex justify-between h-48'>
+                {/* LEFT */}
+                <div className='w-1/3 '>
+                  {/* JOB TITLE */}
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
+                    Front-end Developer
+                  </div>
+                  {/* JOB DESC */}
+                  <div className='p-3 text-sm italic'>
+                    My current employment. Way better than the position before!
+                  </div>
+                  {/* JOB DATE */}
+                  <div className='p-3 text-red-400 text-sm font-semibold'>
+                    10/2022 - Present
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>
+                    CUSC
+                  </div>
                 </div>
-                {/* JOB DESC */}
-                <div className='p-3 text-sm italic'>
-                  My current employment. Way better than the position before!
+                {/* CENTER */}
+                <div className='w-1/6'>
+                  {/* LINE */}
+                  <div className='w-1 h-full bg-gray-600 rounded relative'>
+                    {/* LINE CIRCLE */}
+                    <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
+                  </div>
                 </div>
-                {/* JOB DATE */}
-                <div className='p-3 text-red-400 text-sm font-semibold'>
-                  10/2022 - Present
-                </div>
-                {/* JOB COMPANY */}
-                <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>
-                  CUSC
-                </div>
+                {/* RIGHT */}
+                <div className='w-1/3'></div>
               </div>
-              {/* CENTER */}
-              <div className='w-1/6'>
-                {/* LINE */}
-                <div className='w-1 h-full bg-gray-600 rounded relative'>
-                  {/* LINE CIRCLE */}
-                  <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
-                </div>
-              </div>
-              {/* RIGHT */}
-              <div className='w-1/3'></div>
-            </motion.div>
 
-            {/* EXPERIENCE ITEM 2*/}
-            <div className='flex justify-between h-48'>
-              {/* LEFT */}
-              <div className='w-1/3'></div>
-              {/* CENTER */}
-              <div className='w-1/6'>
-                {/* LINE */}
-                <div className='w-1 h-full bg-gray-600 rounded relative'>
-                  {/* LINE CIRCLE */}
-                  <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
+              {/* EXPERIENCE ITEM 2*/}
+              <div className='flex justify-between h-48'>
+                {/* LEFT */}
+                <div className='w-1/3'></div>
+                {/* CENTER */}
+                <div className='w-1/6'>
+                  {/* LINE */}
+                  <div className='w-1 h-full bg-gray-600 rounded relative'>
+                    {/* LINE CIRCLE */}
+                    <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className='w-1/3 '>
+                  {/* JOB TITLE */}
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
+                    Hardware And Computer Network Intern
+                  </div>
+                  {/* JOB DESC */}
+                  <div className='p-3 text-sm italic'>
+                    Design and installation of internal networks
+                    <br />
+                    Repair The Computer
+                  </div>
+                  {/* JOB DATE */}
+                  <div className='p-3 text-red-400 text-sm font-semibold'>
+                    05/2022 - 09/2022
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>
+                    Huy Minh Pro
+                  </div>
                 </div>
               </div>
-              {/* RIGHT */}
-              <div className='w-1/3 '>
-                {/* JOB TITLE */}
-                <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                  Hardware And Computer Network Intern
+              {/* EXPERIENCE ITEM 3*/}
+              <div className='flex justify-between h-48'>
+                {/* LEFT */}
+                <div className='w-1/3 '>
+                  {/* JOB TITLE */}
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
+                    IT Student
+                  </div>
+                  {/* JOB DESC */}
+                  <div className='p-3 text-sm italic'>
+                    Studying information technology
+                  </div>
+                  {/* JOB DATE */}
+                  <div className='p-3 text-red-400 text-sm font-semibold'>
+                    09/2018 - 09/2022
+                  </div>
+                  {/* JOB COMPANY */}
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>
+                    Can Tho University
+                  </div>
                 </div>
-                {/* JOB DESC */}
-                <div className='p-3 text-sm italic'>
-                  Design and installation of internal networks
-                  <br />
-                  Repair The Computer
+                {/* CENTER */}
+                <div className='w-1/6'>
+                  {/* LINE */}
+                  <div className='w-1 h-full bg-gray-600 rounded relative'>
+                    {/* LINE CIRCLE */}
+                    <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
+                  </div>
                 </div>
-                {/* JOB DATE */}
-                <div className='p-3 text-red-400 text-sm font-semibold'>
-                  05/2022 - 09/2022
-                </div>
-                {/* JOB COMPANY */}
-                <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>
-                  Huy Minh Pro
-                </div>
+                {/* RIGHT */}
+                <div className='w-1/3'></div>
               </div>
-            </div>
-            {/* EXPERIENCE ITEM 3*/}
-            <div className='flex justify-between h-48'>
-              {/* LEFT */}
-              <div className='w-1/3 '>
-                {/* JOB TITLE */}
-                <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>
-                  IT Student
-                </div>
-                {/* JOB DESC */}
-                <div className='p-3 text-sm italic'>
-                  Studying information technology
-                </div>
-                {/* JOB DATE */}
-                <div className='p-3 text-red-400 text-sm font-semibold'>
-                  09/2018 - 09/2022
-                </div>
-                {/* JOB COMPANY */}
-                <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>
-                  Can Tho University
-                </div>
-              </div>
-              {/* CENTER */}
-              <div className='w-1/6'>
-                {/* LINE */}
-                <div className='w-1 h-full bg-gray-600 rounded relative'>
-                  {/* LINE CIRCLE */}
-                  <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
-                </div>
-              </div>
-              {/* RIGHT */}
-              <div className='w-1/3'></div>
-            </div>
+            </motion.div>
           </div>
         </div>
         {/* SVG CONTAINER */}
